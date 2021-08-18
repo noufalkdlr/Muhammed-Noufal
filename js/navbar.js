@@ -5,6 +5,8 @@ $(document).ready(function(){
     });
   });
 
+  
+
 
     // Look for .hamburger
     var hamburger = document.querySelector(".hamburger");
