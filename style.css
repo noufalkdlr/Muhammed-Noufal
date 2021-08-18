@@ -3,6 +3,7 @@
 @import url(css/clear.css);
 @import url(css/bootstrap.css);
 @import url(css/fonts.css);
+@import url(css/hamburgers.css);
 
 
 
@@ -25,14 +26,9 @@
 /*----------------Nav bar start--------------*/
 
 
-.menu-icon{
-    width: 2rem;
-    margin-top: .7rem;
-     
-}
 .btn{
     padding: 0;
+    
 }
-
 
 /*----------------Nav bar end--------------*/
