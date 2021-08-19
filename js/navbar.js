@@ -1,18 +1,26 @@
-$(document).ready(function(){
-    $('.btn').click(function(){
-      $('.items').toggleClass("show");
-      $('ul li').toggleClass("hide");
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links li');
+
+
+    
+    burger.addEventListener('click', () => {
+        // Toggle Nav
+        nav.classList.toggle('nav-active');
+
+        // Animate Links
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
+                link.style.animation = '';
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+            }
+        });
+        // Burger Animation
+        burger.classList.toggle('toggle');
     });
-  });
 
-  
+}
 
-
-    // Look for .hamburger
-    var hamburger = document.querySelector(".hamburger");
-    // On click
-    hamburger.addEventListener("click", function() {
-      // Toggle class "is-active"
-      hamburger.classList.toggle("is-active");
-      // Do something else, like open/close menu
-    });
+navSlide();
