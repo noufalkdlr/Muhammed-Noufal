@@ -45,7 +45,7 @@ nav{
     justify-content:space-between;
     align-items: center;
     min-height: 70px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 219, 219);
     padding: 0;
     
 }
@@ -54,22 +54,24 @@ nav{
     display: flex;
 }
 
-.logo h2{
+.logo h1{
     color:var(--secondary-text-color);
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 32px;
-    margin-bottom:0 ;
-    line-height: 0px;
-    
+    margin-bottom:0px ;
+    line-height: 0px;  
 }
 
-.logo span{
-    color: var(--main-color);
-    font-size: 70px;
-    margin-top: -17.9px;
+.logo p{
+    color:var(--main-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom:0;
     line-height: 0;
-    
+    margin-top: -2px;
+    margin-left:53px
 }
 
 .nav-links{
