@@ -26,7 +26,7 @@ font-family: 'Poppins', sans-serif; */
 }
 
 body{
-    padding-top: 5rem;
+    padding-top:5rem;
 }
 
 
@@ -47,6 +47,8 @@ nav{
     min-height: 70px;
     background-color: rgb(255, 255, 255);
     padding: 0;
+    width: 88%;
+    margin: auto;
     
 }
 
@@ -149,6 +151,9 @@ nav{
 
 
 @media screen and (max-width:1024px){
+    nav{
+        width: 96%;
+    }
     .nav-links{ 
         width: 50%;
     }
@@ -197,6 +202,7 @@ nav{
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
     }
+    
 
 }
 
