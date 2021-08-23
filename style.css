@@ -27,11 +27,12 @@ font-family: 'Poppins', sans-serif; */
 
 .wrapper{
     overflow-x: hidden;
-    
+    position: relative;
 }
 
 body{
-    padding-top:5rem;
+    padding:5rem 0 0 0;
+    
 }
 
 
@@ -342,7 +343,10 @@ nav{
 
 /* Mobile Header start */
 
-    
+    body{
+        padding: 0;
+    }    
+
     header{
         position: absolute;
         top: 0;
@@ -386,6 +390,10 @@ nav{
 
 
     /* .home-page start */
+
+    .home-page{
+        padding: 5rem 0 0 0;
+    }
 
     .cover{
         width: 100%;
