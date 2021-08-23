@@ -148,13 +148,14 @@ nav{
 
 .home-page{
     display: flex;
+    width: 100%;
     min-height: 90vh;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     align-items: center;
 }
 
 .introduction{
-    /* background-color: azure; */
+    background-color: azure;
     width: 50%;
     padding: 0 0 110px 0;
     animation: drop-intro 1.5s ease;
@@ -241,7 +242,7 @@ nav{
 
 
 .cover{
-    /* background-color: lightcyan; */
+    background-color: lightcyan;
     width: 100%;
     width: 700px;
     display: flex;
@@ -279,7 +280,7 @@ nav{
     .home-page{
         flex-direction: column;
         text-align: center;
-        /* background-color: wheat; */
+        background-color: wheat;
         min-height: 120vh;
     }
 
@@ -385,13 +386,16 @@ nav{
 
     /* Mobile Header end */
 
+
+    /* .home-page start */
+
     .cover{
         width: 100%;
         width: 330px;
         padding: 0px 0 0 0;
     }
     
-
+    /* .home-page end */
 }
 
 .nav-active{
