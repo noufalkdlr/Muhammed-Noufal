@@ -259,6 +259,10 @@ nav{
 
 @media screen and (max-width:1024px){
 
+    body{
+        overflow-x: hidden; 
+    }
+
 /* Tab Header start */
 
     nav{
@@ -340,11 +344,7 @@ nav{
     /* body{
         overflow-x: hidden; 
     } */
-
-    nav{
-        width: 96%;
-    }
-
+    
     header{
         position: absolute;
         top: 0;
