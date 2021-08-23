@@ -267,9 +267,7 @@ nav{
 
 /* Tab Header start */
 
-    nav{
-        width: 96%;
-    }
+ 
     .nav-links{ 
         width: 50%;
     }
@@ -283,56 +281,10 @@ nav{
 
 /* Home page start */
 
-    .home-page{
-        flex-direction: column;
-        text-align: center;
-        /* background-color: wheat; */
-        min-height: 120vh;
-    }
 
-    .introduction{
-        /* background-color: azure; */
-        width: 100%;
-        padding: 100px 0 0 0;
-        
-    }
-    .intro-text p{
-        color: var(--main-color);
-    }
-    .intro-text h1{
-        font-weight: 600;
-        font-size: 34px;
-        /* text-transform: uppercase; */
-    }
-    .intro-text h6{
-        padding: 0 0 50px 0;
-    }
-   
-   
-    .social-icons{  
-        margin: 0 auto 0 auto;
-        width: 40%;
-        padding: 0 0 30px 0;
-        
-    }
-    .social-icons li{
-        list-style: none;
-        width: 26px;
-    }
-    .social-icons img{
-        width: 100%;
-    }
-    .hire-me-btn{
-        padding: 50px 0 50px 0;
-    }
-    .cover{
-        width: 100%;
-        width: 600px;
-    }
-    .cover img{
-        width: 100%;
-        margin: 0 0 0 0;
-    }
+
+
+    
 
     /* Home page end */
  
@@ -340,12 +292,13 @@ nav{
 }
 
 @media screen and (max-width:768px){
-
-/* Mobile Header start */
-
     body{
         padding: 0;
     }    
+
+
+/* Mobile Header start */
+
 
     header{
         position: absolute;
@@ -353,6 +306,9 @@ nav{
         right: 0;
         left: 0;
         z-index: 1030;
+    }
+    nav{
+        width: 96%;
     }
     .nav-links{
         position: absolute;
@@ -392,8 +348,49 @@ nav{
     /* .home-page start */
 
     .home-page{
+        flex-direction: column;
+        text-align: center;
+        /* background-color: wheat; */
+        min-height: 120vh;
         padding: 5rem 0 0 0;
     }
+
+    .introduction{
+        /* background-color: azure; */
+        width: 100%;
+        padding: 100px 0 0 0;
+        
+    }
+    .intro-text p{
+        color: var(--main-color);
+    }
+    .intro-text h1{
+        font-weight: 600;
+        font-size: 34px;
+        /* text-transform: uppercase; */
+    }
+    .intro-text h6{
+        padding: 0 0 50px 0;
+    }
+    .social-icons{  
+        margin: 0 auto 0 auto;
+        width: 50%;
+        padding: 0 0 30px 0;
+        
+    }
+    .social-icons li{
+        list-style: none;
+    }
+    .social-icons img{
+        width: 100%;
+    }
+    .hire-me-btn{
+        padding: 50px 0 50px 0;
+    }
+    .cover{
+        display: none;
+    }
+  
 
     .cover{
         width: 100%;
