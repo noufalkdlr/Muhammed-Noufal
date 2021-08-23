@@ -149,13 +149,13 @@ nav{
 .home-page{
     display: flex;
     min-height: 90vh;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     align-items: center;
 }
 
 .introduction{
-    /* background-color: azure; */
-    flex:1;
+    background-color: azure;
+    width: 50%;
     padding: 0 0 110px 0;
     animation: drop-intro 1.5s ease;
 }
@@ -241,8 +241,8 @@ nav{
 
 
 .cover{
-    /* background-color: lightcyan; */
-    flex:1;
+    background-color: lightcyan;
+    width: 50%;
     width: 700px;
     display: flex;
     justify-content: center;
@@ -274,18 +274,19 @@ nav{
         width: 96%;
     }
 
+/* Home page start */
+
     .home-page{
         flex-direction: column;
         text-align: center;
         /* background-color: wheat; */
         min-height: 120vh;
-       
     }
 
     .introduction{
         /* background-color: azure; */
-        flex:1;
-        padding: 150px 0 0 0;
+        width: 100%;
+        padding: 50px 0 0 0;
         
     }
     .intro-text p{
@@ -293,7 +294,7 @@ nav{
     }
     .intro-text h1{
         font-weight: 600;
-        font-size: 38px;
+        font-size: 34px;
         /* text-transform: uppercase; */
     }
     .intro-text h6{
@@ -318,12 +319,16 @@ nav{
         padding-top: 50px;
     }
     .cover{
-        padding: 0px 0 0 0;
+        width: 100%;
+        width: 430px;
+        padding: 100px 0 0 0;
     }
     .cover img{
-        width: 60%;
-        margin: -350px 0 0 0;
+        width: 100%;
+        margin: 0 0 0 0;
     }
+
+    /* Home page end */
  
     
 }
