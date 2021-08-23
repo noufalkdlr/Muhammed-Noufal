@@ -149,12 +149,12 @@ nav{
 .home-page{
     display: flex;
     min-height: 90vh;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     align-items: center;
 }
 
 .introduction{
-    background-color: azure;
+    /* background-color: azure; */
     width: 50%;
     padding: 0 0 110px 0;
     animation: drop-intro 1.5s ease;
@@ -241,8 +241,8 @@ nav{
 
 
 .cover{
-    background-color: lightcyan;
-    width: 50%;
+    /* background-color: lightcyan; */
+    width: 100%;
     width: 700px;
     display: flex;
     justify-content: center;
@@ -286,7 +286,7 @@ nav{
     .introduction{
         /* background-color: azure; */
         width: 100%;
-        padding: 50px 0 0 0;
+        padding: 100px 0 0 0;
         
     }
     .intro-text p{
@@ -316,12 +316,11 @@ nav{
         width: 100%;
     }
     .hire-me-btn{
-        padding-top: 50px;
+        padding: 50px 0 50px 0;
     }
     .cover{
         width: 100%;
-        width: 430px;
-        padding: 100px 0 0 0;
+        width: 600px;
     }
     .cover img{
         width: 100%;
@@ -383,6 +382,14 @@ nav{
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
     }
+
+    /* Mobile Header end */
+
+    .cover{
+        width: 100%;
+        width: 330px;
+        padding: 0px 0 0 0;
+    }
     
 
 }
@@ -391,7 +398,7 @@ nav{
     transform: translateX(0%);
 }
 
-/* Mobile Header end */
+
 
 /* navbar animation start */
 
