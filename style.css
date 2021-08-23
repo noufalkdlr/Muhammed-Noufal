@@ -25,6 +25,10 @@ font-family: 'Poppins', sans-serif; */
     --secondary-text-color: #242424;
 }
 
+html body{
+    overflow-x: hidden;
+}
+
 body{
     padding-top:5rem;
 }
@@ -259,10 +263,6 @@ nav{
 
 @media screen and (max-width:1024px){
 
-    body{
-        overflow-x: hidden; 
-    }
-
 /* Tab Header start */
 
     nav{
@@ -341,9 +341,6 @@ nav{
 
 /* Mobile Header start */
 
-    /* body{
-        overflow-x: hidden; 
-    } */
     
     header{
         position: absolute;
