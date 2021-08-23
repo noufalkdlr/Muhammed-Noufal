@@ -25,8 +25,9 @@ font-family: 'Poppins', sans-serif; */
     --secondary-text-color: #242424;
 }
 
-html body{
+.wrapper{
     overflow-x: hidden;
+    position: relative;
 }
 
 body{
@@ -284,7 +285,7 @@ nav{
     .home-page{
         flex-direction: column;
         text-align: center;
-        background-color: wheat;
+        /* background-color: wheat; */
         min-height: 120vh;
     }
 
