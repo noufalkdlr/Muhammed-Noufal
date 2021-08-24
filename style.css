@@ -310,17 +310,18 @@ nav {
     flex-direction: column;
     text-align: center;
     /* background-color: wheat; */
-    min-height: 120vh;
+    min-height: 100vh;
     padding: 5rem 0 0 0;
   }
 
   .introduction {
     /* background-color: azure; */
     width: 100%;
-    padding: 110px 0 0 0;
+    padding: 100px 0 0 0;
   }
   .intro-text p {
     color: var(--main-color);
+    margin: 0 0 30px 0;
   }
   .intro-text h1 {
     font-weight: 700;
@@ -329,7 +330,8 @@ nav {
     /* text-transform: uppercase; */
   }
   .intro-text h6 {
-    padding: 0 0 50px 0;
+    padding: 0 0 0px 0;
+    margin: 0 0 40px 0;
   }
   .social-icons {
     margin: 0 auto 0 auto;
@@ -343,7 +345,7 @@ nav {
     width: 100%;
   }
   .hire-me-btn {
-    padding: 50px 0 50px 0;
+    padding: 0 0 0 0;
   }
   .cover {
     display: none;
