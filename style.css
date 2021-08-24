@@ -34,10 +34,6 @@ header {
   animation: drop-header 1.5s ease;
 }
 
-main {
-  width: 85%;
-  margin: auto;
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -132,9 +128,13 @@ nav {
 
 /* home page start */
 
+.home-page{
+  width: 85%;
+  margin: 0 auto;
+}
+
 .home-page {
   display: flex;
-  width: 100%;
   min-height: 90vh;
   /* background-color: antiquewhite; */
   align-items: center;
@@ -247,9 +247,6 @@ nav {
 
   /* Header end */
 
-  main {
-    width: 96%;
-  }
 
   /* Home page start */
 
