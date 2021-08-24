@@ -33,7 +33,16 @@ header {
   z-index: 1030;
   animation: drop-header 1.5s ease;
 }
-
+@keyframes drop-header {
+  0% {
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -146,7 +155,16 @@ nav {
   padding: 0 0 110px 0;
   animation: drop-intro 1.5s ease;
 }
-
+@keyframes drop-intro {
+  0% {
+    opacity: 0;
+    transform: translateY(-800px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 .intro-text p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -221,7 +239,6 @@ nav {
   transform: translateY(9px);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
 .cover {
   /* background-color: lightcyan; */
   width: 100%;
@@ -230,12 +247,20 @@ nav {
   justify-content: center;
   padding: 0 0 100px 0;
 }
-
 .cover img {
   width: 100%;
   animation: drop-cover 1.5s ease;
 }
-
+@keyframes drop-cover {
+  0% {
+    opacity: 0;
+    transform: translateX(800px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 /* home page end */
 
 @media screen and (max-width: 1024px) {
@@ -388,39 +413,4 @@ nav {
 
 /* navbar animation end */
 
-/*Home animation start*/
 
-@keyframes drop-header {
-  0% {
-    opacity: 0;
-    transform: translateY(-300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-@keyframes drop-intro {
-  0% {
-    opacity: 0;
-    transform: translateY(-800px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-@keyframes drop-cover {
-  0% {
-    opacity: 0;
-    transform: translateX(800px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-/*Home animation end*/
