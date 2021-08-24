@@ -8,16 +8,6 @@
 
 /* css files */
 
-/* fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif; */
-
-/* fonts */
-
-
 
 :root{
     --main-color: #2BD1BE;
@@ -177,12 +167,12 @@ nav{
 }
 
 .intro-text h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     font-size: 40px;
     color:#000;
     line-height: 0;
-    margin: 0 0 45px -2.5px;
+    margin: 0 0 40px -2.5px;
 }
 
 .intro-text h6{
@@ -265,14 +255,14 @@ nav{
 
 @media screen and (max-width:1024px){
 
-/* Tab Header start */
+/* Header start */
 
  
     .nav-links{ 
         width: 50%;
     }
 
- /* Tab Header end */
+ /* Header end */
 
 
     main{
@@ -286,7 +276,7 @@ nav{
 
     
 
-    /* Home page end */
+ /* Home page end */
  
     
 }
@@ -358,15 +348,16 @@ nav{
     .introduction{
         /* background-color: azure; */
         width: 100%;
-        padding: 100px 0 0 0;
+        padding: 130px 0 0 0;
         
     }
     .intro-text p{
         color: var(--main-color);
     }
     .intro-text h1{
-        font-weight: 600;
-        font-size: 34px;
+        font-weight: 700;
+        font-size: 38px;
+        margin: 0 0 40px 0;
         /* text-transform: uppercase; */
     }
     .intro-text h6{
