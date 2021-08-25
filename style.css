@@ -17,11 +17,6 @@
   overflow-x: hidden;
   position: relative;
 }
-
-body {
-  padding: 5rem 0 0 0;
-}
-
 /* Header start */
 
 header {
@@ -144,9 +139,10 @@ nav {
 
 .home-page {
   display: flex;
-  min-height: 90vh;
+  min-height: 100vh;
   /* background-color: antiquewhite; */
   /* align-items: center; */
+  padding: 5rem 0 0 0;
 }
 
 .introduction {
