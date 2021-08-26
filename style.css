@@ -204,10 +204,11 @@ nav {
 }
 .social-icons img {
   width: 100%;
+
 }
 .social-icons :hover {
   transform: translateY(1.4px);
-  transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .social-icons :active {
   transform: translateY(3px);
@@ -288,7 +289,7 @@ nav {
   margin: 0 0 1rem 0;
 }
 .about-text p {
-  font-family: "Lato", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: var(--secondary-text-color);
