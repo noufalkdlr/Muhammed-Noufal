@@ -402,6 +402,13 @@ nav {
 
   /* portfolio page start */
 
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 400px;
+    grid-auto-flow: dense;
+  }
   /* portfolio page end */
 }
 
