@@ -572,6 +572,17 @@ nav {
     /* background-color: azure; */
     width: 100%;
     padding: 20vh 0 0 0;
+    animation: drop-intro 1.5s ease;
+  }
+  @keyframes drop-intro {
+    0% {
+      opacity: 0;
+      transform: translateY(800px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
   }
   .intro-text p {
     font-family: "Poppins", sans-serif;
@@ -647,6 +658,9 @@ nav {
 
   /* portfolio page start */
 
+  .portfolio-page {
+    padding: 2rem 0 2rem 0;
+  }
   .grid-wrapper {
     display: grid;
     grid-gap: 10px;
