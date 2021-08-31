@@ -157,7 +157,7 @@ nav {
 @keyframes drop-intro {
   0% {
     opacity: 0;
-    transform: translateY(-800px);
+    transform: translateY(800px);
   }
   100% {
     opacity: 1;
@@ -250,7 +250,7 @@ nav {
 @keyframes drop-cover {
   0% {
     opacity: 0;
-    transform: translateX(800px);
+    transform: translateY(800px);
   }
   100% {
     opacity: 1;
@@ -522,6 +522,17 @@ nav {
     right: 0;
     left: 0;
     z-index: 1030;
+    animation: drop-header 1.2s ease;
+  }
+  @keyframes drop-header {
+    0% {
+      opacity: 0;
+      transform: translateY(-300px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
   }
   nav {
     width: 96%;
@@ -572,7 +583,7 @@ nav {
     /* background-color: azure; */
     width: 100%;
     padding: 20vh 0 0 0;
-    animation: drop-intro 1.5s ease;
+    animation: drop-intro 1.2s ease;
   }
   @keyframes drop-intro {
     0% {
