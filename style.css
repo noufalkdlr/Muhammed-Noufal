@@ -13,7 +13,10 @@
   --secondary-text-color: #242424;
   --light-bg: #f8f9fa;
 }
-
+::selection{
+  color: rgb(255, 255, 255);
+  background: var(--main-color);
+}
 .wrapper {
   overflow-x: hidden;
   position: relative;
@@ -54,6 +57,9 @@ nav {
   padding: 0;
   width: 85%;
   margin: auto;
+}
+nav a{
+  text-decoration: none;
 }
 .logo {
   display: flex;
@@ -147,7 +153,6 @@ nav {
   padding: 5rem 0 0 0;
   align-items: center;
 }
-
 .introduction {
   /* background-color: azure; */
   flex: 1;
@@ -299,7 +304,7 @@ nav {
 /* portfolio page start */
 
 .portfolio-page {
-  padding: 5rem 0 5rem 0;
+  padding: 5rem 0 3rem 0;
 }
 .p-text h1 {
   font-family: "Poppins", sans-serif;
@@ -361,7 +366,7 @@ nav {
 .view-more-btn {
   display: flex;
   justify-content: center;
-  padding: 2.5rem 0rem 0 0;
+  padding: 2rem 0rem 0 0;
 }
 .view-more-btn button {
   border: none;
